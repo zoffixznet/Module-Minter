@@ -1,6 +1,6 @@
 {
     "name" : "Module::Minter",
-    "version" : "0.02",
+    "version" : "0.03",
     "description" : "a Perl 6 module for creating new modules",
     "author" : "David Farrell",
     "depends" : [ "File::Temp", "Software::License", "File::Directory::Tree" ],
