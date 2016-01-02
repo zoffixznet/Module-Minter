@@ -129,5 +129,6 @@ module Module::Minter
 
         return $full_path;
     }
-
 }
+
+# vim: set ft=json
