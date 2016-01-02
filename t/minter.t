@@ -16,7 +16,7 @@ ok "$root_filepath/LICENSE".IO ~~ :e, 'LICENSE file was created';
 ok "$root_filepath/META.info".IO ~~ :e, 'META file was created';
 
 # illegal module names
-dies_ok { mint-new-module('1::No::Leading:Numeric') }, 'dies on leading numeric';
+dies-ok { mint-new-module('1::No::Leading:Numeric') }, 'dies on leading numeric';
 
 # grammar - illegal
 nok Module::Minter::Legal-Module-Name.parse('1Leading::Numeric'), 'illegal leading number';
