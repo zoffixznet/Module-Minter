@@ -131,4 +131,4 @@ module Module::Minter
     }
 }
 
-# vim: set ft=json
+# vim: set ft=perl6
